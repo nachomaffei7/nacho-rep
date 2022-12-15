@@ -1,0 +1,115 @@
+.estudio {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+a {
+    text-decoration: none!important;
+    color: rgb(36, 36, 36)!important;
+}
+
+.navbar{
+    background-color: grey;
+}
+.navbar .nav-link{
+    font-size: 20px;
+}
+
+*#navbarText{
+    position: absolute;
+    right: 0;
+}
+
+footer{
+    background-color: grey;
+}
+footer .footer-row{
+    padding: 20px 0;
+}
+footer .social-media-info{
+    text-align: end;
+}
+footer hr{
+    margin: 15px 0 0;
+}
+footer .footer-bottom{
+    align-items: center;
+}
+
+.gridcontainer {
+display: grid;
+height: 1000px;
+gap: 10px;
+grid-template: 200px 300px 150px/ 30% 30% 30%;
+align-content: space-evenly;
+justify-content: space-evenly;
+}
+
+.grid-item{background-color: rgba(250, 235, 215, 0.662);
+border-radius: 10px;}
+
+.mision {
+   
+    color: rgba(0, 0, 0, 0.707);
+    border: 0;
+    grid-column: 1/4;
+    grid-row: 1/2;
+font-family: 'Playfair Display', serif;
+}
+
+
+.mision h2 {text-align: center;
+padding-top: 20px;}
+.mision p { text-align: center;
+padding: 10px 5px;
+font-size: 20px;
+display: flex;
+align-items: center;}
+
+.art-interes {display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.1s ease-in-out;}
+
+    .art-interes:hover {
+        transform: scale(1.03);
+    }
+
+.art-1 {grid-column: 1/2;
+background-image: url(./images/logo_CSJN_top5.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;}
+
+.art-2 {grid-column: 2/3;
+background-image: url(./images/DIARIOJUDICIAL.png);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;}
+
+.art-3 {grid-column: 3/4;
+background-image: url(./images/PENSAMIENTOPENAL.png);
+background-size:contain;
+background-repeat: no-repeat;
+background-position: center;}
+
+
+#carouselExampleCaptions {grid-column: 1/4;}
+
+img{border-radius: 10px;}
+
+.contacto {display: flex;
+justify-content: center;
+padding-bottom: 3%;}
+
+footer {border-top: 5px solid black;}
+
+
+     
